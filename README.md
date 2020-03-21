@@ -4,7 +4,7 @@
  * `tests/` : directory containing test output files for comparing during testing
  * `create_tests.sh` : script for creating new test output files given testing parameters
  * `scheduler.py` : main program to be tested
- * `scheduler_test.py` : main test file that calls 'scheduler.py' with list of parameters and compares output from test output files
+ * `scheduler_test.py` : main test file that calls `scheduler.py` with list of parameters and compares output from test output files
 
 ## How to run
  * type `./scheduler_test.py` into shell and it will run tests for all parameters defined within the file (index of param list corresponds to test# in 'tests/' directory)
