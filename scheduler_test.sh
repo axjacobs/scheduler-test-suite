@@ -22,7 +22,7 @@ declare -a params=( ""
 for i in "${!params[@]}"
 do
     python3 $file ${params[$i]} > output
-    if cmp -s output "test$((i+1))"; then
+    if cmp -s output "tests/test$((i+1))"; then
         printf "Test $((i+1)): Passed\n"
     else
         printf "Test $((i+1)): Failed - Arg(s) '%s' did not produce the correct results: \n" "${params[$i]}"
