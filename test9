@@ -1,0 +1,316 @@
+ARG policy FIFO
+ARG jobs 100
+ARG maxlen 10
+ARG seed 0
+
+Here is the job list, with the run time of each job: 
+  Job 0 ( length = 9 )
+  Job 1 ( length = 8 )
+  Job 2 ( length = 5 )
+  Job 3 ( length = 3 )
+  Job 4 ( length = 6 )
+  Job 5 ( length = 5 )
+  Job 6 ( length = 8 )
+  Job 7 ( length = 4 )
+  Job 8 ( length = 5 )
+  Job 9 ( length = 6 )
+  Job 10 ( length = 10 )
+  Job 11 ( length = 6 )
+  Job 12 ( length = 3 )
+  Job 13 ( length = 8 )
+  Job 14 ( length = 7 )
+  Job 15 ( length = 3 )
+  Job 16 ( length = 10 )
+  Job 17 ( length = 10 )
+  Job 18 ( length = 9 )
+  Job 19 ( length = 10 )
+  Job 20 ( length = 4 )
+  Job 21 ( length = 8 )
+  Job 22 ( length = 9 )
+  Job 23 ( length = 7 )
+  Job 24 ( length = 5 )
+  Job 25 ( length = 2 )
+  Job 26 ( length = 5 )
+  Job 27 ( length = 7 )
+  Job 28 ( length = 10 )
+  Job 29 ( length = 10 )
+  Job 30 ( length = 5 )
+  Job 31 ( length = 9 )
+  Job 32 ( length = 3 )
+  Job 33 ( length = 9 )
+  Job 34 ( length = 6 )
+  Job 35 ( length = 1 )
+  Job 36 ( length = 8 )
+  Job 37 ( length = 4 )
+  Job 38 ( length = 9 )
+  Job 39 ( length = 7 )
+  Job 40 ( length = 1 )
+  Job 41 ( length = 5 )
+  Job 42 ( length = 9 )
+  Job 43 ( length = 3 )
+  Job 44 ( length = 4 )
+  Job 45 ( length = 9 )
+  Job 46 ( length = 2 )
+  Job 47 ( length = 6 )
+  Job 48 ( length = 3 )
+  Job 49 ( length = 10 )
+  Job 50 ( length = 9 )
+  Job 51 ( length = 5 )
+  Job 52 ( length = 1 )
+  Job 53 ( length = 4 )
+  Job 54 ( length = 6 )
+  Job 55 ( length = 10 )
+  Job 56 ( length = 2 )
+  Job 57 ( length = 6 )
+  Job 58 ( length = 8 )
+  Job 59 ( length = 6 )
+  Job 60 ( length = 9 )
+  Job 61 ( length = 6 )
+  Job 62 ( length = 10 )
+  Job 63 ( length = 7 )
+  Job 64 ( length = 6 )
+  Job 65 ( length = 5 )
+  Job 66 ( length = 6 )
+  Job 67 ( length = 4 )
+  Job 68 ( length = 6 )
+  Job 69 ( length = 3 )
+  Job 70 ( length = 2 )
+  Job 71 ( length = 2 )
+  Job 72 ( length = 7 )
+  Job 73 ( length = 7 )
+  Job 74 ( length = 5 )
+  Job 75 ( length = 1 )
+  Job 76 ( length = 8 )
+  Job 77 ( length = 9 )
+  Job 78 ( length = 10 )
+  Job 79 ( length = 9 )
+  Job 80 ( length = 9 )
+  Job 81 ( length = 10 )
+  Job 82 ( length = 6 )
+  Job 83 ( length = 4 )
+  Job 84 ( length = 8 )
+  Job 85 ( length = 3 )
+  Job 86 ( length = 9 )
+  Job 87 ( length = 9 )
+  Job 88 ( length = 9 )
+  Job 89 ( length = 6 )
+  Job 90 ( length = 10 )
+  Job 91 ( length = 6 )
+  Job 92 ( length = 5 )
+  Job 93 ( length = 7 )
+  Job 94 ( length = 10 )
+  Job 95 ( length = 10 )
+  Job 96 ( length = 8 )
+  Job 97 ( length = 1 )
+  Job 98 ( length = 7 )
+  Job 99 ( length = 5 )
+
+
+** Solutions **
+
+Execution trace:
+  [ time   0 ] Run job 0 for 9.00 secs ( DONE at 9.00 )
+  [ time   9 ] Run job 1 for 8.00 secs ( DONE at 17.00 )
+  [ time  17 ] Run job 2 for 5.00 secs ( DONE at 22.00 )
+  [ time  22 ] Run job 3 for 3.00 secs ( DONE at 25.00 )
+  [ time  25 ] Run job 4 for 6.00 secs ( DONE at 31.00 )
+  [ time  31 ] Run job 5 for 5.00 secs ( DONE at 36.00 )
+  [ time  36 ] Run job 6 for 8.00 secs ( DONE at 44.00 )
+  [ time  44 ] Run job 7 for 4.00 secs ( DONE at 48.00 )
+  [ time  48 ] Run job 8 for 5.00 secs ( DONE at 53.00 )
+  [ time  53 ] Run job 9 for 6.00 secs ( DONE at 59.00 )
+  [ time  59 ] Run job 10 for 10.00 secs ( DONE at 69.00 )
+  [ time  69 ] Run job 11 for 6.00 secs ( DONE at 75.00 )
+  [ time  75 ] Run job 12 for 3.00 secs ( DONE at 78.00 )
+  [ time  78 ] Run job 13 for 8.00 secs ( DONE at 86.00 )
+  [ time  86 ] Run job 14 for 7.00 secs ( DONE at 93.00 )
+  [ time  93 ] Run job 15 for 3.00 secs ( DONE at 96.00 )
+  [ time  96 ] Run job 16 for 10.00 secs ( DONE at 106.00 )
+  [ time 106 ] Run job 17 for 10.00 secs ( DONE at 116.00 )
+  [ time 116 ] Run job 18 for 9.00 secs ( DONE at 125.00 )
+  [ time 125 ] Run job 19 for 10.00 secs ( DONE at 135.00 )
+  [ time 135 ] Run job 20 for 4.00 secs ( DONE at 139.00 )
+  [ time 139 ] Run job 21 for 8.00 secs ( DONE at 147.00 )
+  [ time 147 ] Run job 22 for 9.00 secs ( DONE at 156.00 )
+  [ time 156 ] Run job 23 for 7.00 secs ( DONE at 163.00 )
+  [ time 163 ] Run job 24 for 5.00 secs ( DONE at 168.00 )
+  [ time 168 ] Run job 25 for 2.00 secs ( DONE at 170.00 )
+  [ time 170 ] Run job 26 for 5.00 secs ( DONE at 175.00 )
+  [ time 175 ] Run job 27 for 7.00 secs ( DONE at 182.00 )
+  [ time 182 ] Run job 28 for 10.00 secs ( DONE at 192.00 )
+  [ time 192 ] Run job 29 for 10.00 secs ( DONE at 202.00 )
+  [ time 202 ] Run job 30 for 5.00 secs ( DONE at 207.00 )
+  [ time 207 ] Run job 31 for 9.00 secs ( DONE at 216.00 )
+  [ time 216 ] Run job 32 for 3.00 secs ( DONE at 219.00 )
+  [ time 219 ] Run job 33 for 9.00 secs ( DONE at 228.00 )
+  [ time 228 ] Run job 34 for 6.00 secs ( DONE at 234.00 )
+  [ time 234 ] Run job 35 for 1.00 secs ( DONE at 235.00 )
+  [ time 235 ] Run job 36 for 8.00 secs ( DONE at 243.00 )
+  [ time 243 ] Run job 37 for 4.00 secs ( DONE at 247.00 )
+  [ time 247 ] Run job 38 for 9.00 secs ( DONE at 256.00 )
+  [ time 256 ] Run job 39 for 7.00 secs ( DONE at 263.00 )
+  [ time 263 ] Run job 40 for 1.00 secs ( DONE at 264.00 )
+  [ time 264 ] Run job 41 for 5.00 secs ( DONE at 269.00 )
+  [ time 269 ] Run job 42 for 9.00 secs ( DONE at 278.00 )
+  [ time 278 ] Run job 43 for 3.00 secs ( DONE at 281.00 )
+  [ time 281 ] Run job 44 for 4.00 secs ( DONE at 285.00 )
+  [ time 285 ] Run job 45 for 9.00 secs ( DONE at 294.00 )
+  [ time 294 ] Run job 46 for 2.00 secs ( DONE at 296.00 )
+  [ time 296 ] Run job 47 for 6.00 secs ( DONE at 302.00 )
+  [ time 302 ] Run job 48 for 3.00 secs ( DONE at 305.00 )
+  [ time 305 ] Run job 49 for 10.00 secs ( DONE at 315.00 )
+  [ time 315 ] Run job 50 for 9.00 secs ( DONE at 324.00 )
+  [ time 324 ] Run job 51 for 5.00 secs ( DONE at 329.00 )
+  [ time 329 ] Run job 52 for 1.00 secs ( DONE at 330.00 )
+  [ time 330 ] Run job 53 for 4.00 secs ( DONE at 334.00 )
+  [ time 334 ] Run job 54 for 6.00 secs ( DONE at 340.00 )
+  [ time 340 ] Run job 55 for 10.00 secs ( DONE at 350.00 )
+  [ time 350 ] Run job 56 for 2.00 secs ( DONE at 352.00 )
+  [ time 352 ] Run job 57 for 6.00 secs ( DONE at 358.00 )
+  [ time 358 ] Run job 58 for 8.00 secs ( DONE at 366.00 )
+  [ time 366 ] Run job 59 for 6.00 secs ( DONE at 372.00 )
+  [ time 372 ] Run job 60 for 9.00 secs ( DONE at 381.00 )
+  [ time 381 ] Run job 61 for 6.00 secs ( DONE at 387.00 )
+  [ time 387 ] Run job 62 for 10.00 secs ( DONE at 397.00 )
+  [ time 397 ] Run job 63 for 7.00 secs ( DONE at 404.00 )
+  [ time 404 ] Run job 64 for 6.00 secs ( DONE at 410.00 )
+  [ time 410 ] Run job 65 for 5.00 secs ( DONE at 415.00 )
+  [ time 415 ] Run job 66 for 6.00 secs ( DONE at 421.00 )
+  [ time 421 ] Run job 67 for 4.00 secs ( DONE at 425.00 )
+  [ time 425 ] Run job 68 for 6.00 secs ( DONE at 431.00 )
+  [ time 431 ] Run job 69 for 3.00 secs ( DONE at 434.00 )
+  [ time 434 ] Run job 70 for 2.00 secs ( DONE at 436.00 )
+  [ time 436 ] Run job 71 for 2.00 secs ( DONE at 438.00 )
+  [ time 438 ] Run job 72 for 7.00 secs ( DONE at 445.00 )
+  [ time 445 ] Run job 73 for 7.00 secs ( DONE at 452.00 )
+  [ time 452 ] Run job 74 for 5.00 secs ( DONE at 457.00 )
+  [ time 457 ] Run job 75 for 1.00 secs ( DONE at 458.00 )
+  [ time 458 ] Run job 76 for 8.00 secs ( DONE at 466.00 )
+  [ time 466 ] Run job 77 for 9.00 secs ( DONE at 475.00 )
+  [ time 475 ] Run job 78 for 10.00 secs ( DONE at 485.00 )
+  [ time 485 ] Run job 79 for 9.00 secs ( DONE at 494.00 )
+  [ time 494 ] Run job 80 for 9.00 secs ( DONE at 503.00 )
+  [ time 503 ] Run job 81 for 10.00 secs ( DONE at 513.00 )
+  [ time 513 ] Run job 82 for 6.00 secs ( DONE at 519.00 )
+  [ time 519 ] Run job 83 for 4.00 secs ( DONE at 523.00 )
+  [ time 523 ] Run job 84 for 8.00 secs ( DONE at 531.00 )
+  [ time 531 ] Run job 85 for 3.00 secs ( DONE at 534.00 )
+  [ time 534 ] Run job 86 for 9.00 secs ( DONE at 543.00 )
+  [ time 543 ] Run job 87 for 9.00 secs ( DONE at 552.00 )
+  [ time 552 ] Run job 88 for 9.00 secs ( DONE at 561.00 )
+  [ time 561 ] Run job 89 for 6.00 secs ( DONE at 567.00 )
+  [ time 567 ] Run job 90 for 10.00 secs ( DONE at 577.00 )
+  [ time 577 ] Run job 91 for 6.00 secs ( DONE at 583.00 )
+  [ time 583 ] Run job 92 for 5.00 secs ( DONE at 588.00 )
+  [ time 588 ] Run job 93 for 7.00 secs ( DONE at 595.00 )
+  [ time 595 ] Run job 94 for 10.00 secs ( DONE at 605.00 )
+  [ time 605 ] Run job 95 for 10.00 secs ( DONE at 615.00 )
+  [ time 615 ] Run job 96 for 8.00 secs ( DONE at 623.00 )
+  [ time 623 ] Run job 97 for 1.00 secs ( DONE at 624.00 )
+  [ time 624 ] Run job 98 for 7.00 secs ( DONE at 631.00 )
+  [ time 631 ] Run job 99 for 5.00 secs ( DONE at 636.00 )
+
+Final statistics:
+  Job   0 -- Response: 0.00  Turnaround 9.00  Wait 0.00
+  Job   1 -- Response: 9.00  Turnaround 17.00  Wait 9.00
+  Job   2 -- Response: 17.00  Turnaround 22.00  Wait 17.00
+  Job   3 -- Response: 22.00  Turnaround 25.00  Wait 22.00
+  Job   4 -- Response: 25.00  Turnaround 31.00  Wait 25.00
+  Job   5 -- Response: 31.00  Turnaround 36.00  Wait 31.00
+  Job   6 -- Response: 36.00  Turnaround 44.00  Wait 36.00
+  Job   7 -- Response: 44.00  Turnaround 48.00  Wait 44.00
+  Job   8 -- Response: 48.00  Turnaround 53.00  Wait 48.00
+  Job   9 -- Response: 53.00  Turnaround 59.00  Wait 53.00
+  Job  10 -- Response: 59.00  Turnaround 69.00  Wait 59.00
+  Job  11 -- Response: 69.00  Turnaround 75.00  Wait 69.00
+  Job  12 -- Response: 75.00  Turnaround 78.00  Wait 75.00
+  Job  13 -- Response: 78.00  Turnaround 86.00  Wait 78.00
+  Job  14 -- Response: 86.00  Turnaround 93.00  Wait 86.00
+  Job  15 -- Response: 93.00  Turnaround 96.00  Wait 93.00
+  Job  16 -- Response: 96.00  Turnaround 106.00  Wait 96.00
+  Job  17 -- Response: 106.00  Turnaround 116.00  Wait 106.00
+  Job  18 -- Response: 116.00  Turnaround 125.00  Wait 116.00
+  Job  19 -- Response: 125.00  Turnaround 135.00  Wait 125.00
+  Job  20 -- Response: 135.00  Turnaround 139.00  Wait 135.00
+  Job  21 -- Response: 139.00  Turnaround 147.00  Wait 139.00
+  Job  22 -- Response: 147.00  Turnaround 156.00  Wait 147.00
+  Job  23 -- Response: 156.00  Turnaround 163.00  Wait 156.00
+  Job  24 -- Response: 163.00  Turnaround 168.00  Wait 163.00
+  Job  25 -- Response: 168.00  Turnaround 170.00  Wait 168.00
+  Job  26 -- Response: 170.00  Turnaround 175.00  Wait 170.00
+  Job  27 -- Response: 175.00  Turnaround 182.00  Wait 175.00
+  Job  28 -- Response: 182.00  Turnaround 192.00  Wait 182.00
+  Job  29 -- Response: 192.00  Turnaround 202.00  Wait 192.00
+  Job  30 -- Response: 202.00  Turnaround 207.00  Wait 202.00
+  Job  31 -- Response: 207.00  Turnaround 216.00  Wait 207.00
+  Job  32 -- Response: 216.00  Turnaround 219.00  Wait 216.00
+  Job  33 -- Response: 219.00  Turnaround 228.00  Wait 219.00
+  Job  34 -- Response: 228.00  Turnaround 234.00  Wait 228.00
+  Job  35 -- Response: 234.00  Turnaround 235.00  Wait 234.00
+  Job  36 -- Response: 235.00  Turnaround 243.00  Wait 235.00
+  Job  37 -- Response: 243.00  Turnaround 247.00  Wait 243.00
+  Job  38 -- Response: 247.00  Turnaround 256.00  Wait 247.00
+  Job  39 -- Response: 256.00  Turnaround 263.00  Wait 256.00
+  Job  40 -- Response: 263.00  Turnaround 264.00  Wait 263.00
+  Job  41 -- Response: 264.00  Turnaround 269.00  Wait 264.00
+  Job  42 -- Response: 269.00  Turnaround 278.00  Wait 269.00
+  Job  43 -- Response: 278.00  Turnaround 281.00  Wait 278.00
+  Job  44 -- Response: 281.00  Turnaround 285.00  Wait 281.00
+  Job  45 -- Response: 285.00  Turnaround 294.00  Wait 285.00
+  Job  46 -- Response: 294.00  Turnaround 296.00  Wait 294.00
+  Job  47 -- Response: 296.00  Turnaround 302.00  Wait 296.00
+  Job  48 -- Response: 302.00  Turnaround 305.00  Wait 302.00
+  Job  49 -- Response: 305.00  Turnaround 315.00  Wait 305.00
+  Job  50 -- Response: 315.00  Turnaround 324.00  Wait 315.00
+  Job  51 -- Response: 324.00  Turnaround 329.00  Wait 324.00
+  Job  52 -- Response: 329.00  Turnaround 330.00  Wait 329.00
+  Job  53 -- Response: 330.00  Turnaround 334.00  Wait 330.00
+  Job  54 -- Response: 334.00  Turnaround 340.00  Wait 334.00
+  Job  55 -- Response: 340.00  Turnaround 350.00  Wait 340.00
+  Job  56 -- Response: 350.00  Turnaround 352.00  Wait 350.00
+  Job  57 -- Response: 352.00  Turnaround 358.00  Wait 352.00
+  Job  58 -- Response: 358.00  Turnaround 366.00  Wait 358.00
+  Job  59 -- Response: 366.00  Turnaround 372.00  Wait 366.00
+  Job  60 -- Response: 372.00  Turnaround 381.00  Wait 372.00
+  Job  61 -- Response: 381.00  Turnaround 387.00  Wait 381.00
+  Job  62 -- Response: 387.00  Turnaround 397.00  Wait 387.00
+  Job  63 -- Response: 397.00  Turnaround 404.00  Wait 397.00
+  Job  64 -- Response: 404.00  Turnaround 410.00  Wait 404.00
+  Job  65 -- Response: 410.00  Turnaround 415.00  Wait 410.00
+  Job  66 -- Response: 415.00  Turnaround 421.00  Wait 415.00
+  Job  67 -- Response: 421.00  Turnaround 425.00  Wait 421.00
+  Job  68 -- Response: 425.00  Turnaround 431.00  Wait 425.00
+  Job  69 -- Response: 431.00  Turnaround 434.00  Wait 431.00
+  Job  70 -- Response: 434.00  Turnaround 436.00  Wait 434.00
+  Job  71 -- Response: 436.00  Turnaround 438.00  Wait 436.00
+  Job  72 -- Response: 438.00  Turnaround 445.00  Wait 438.00
+  Job  73 -- Response: 445.00  Turnaround 452.00  Wait 445.00
+  Job  74 -- Response: 452.00  Turnaround 457.00  Wait 452.00
+  Job  75 -- Response: 457.00  Turnaround 458.00  Wait 457.00
+  Job  76 -- Response: 458.00  Turnaround 466.00  Wait 458.00
+  Job  77 -- Response: 466.00  Turnaround 475.00  Wait 466.00
+  Job  78 -- Response: 475.00  Turnaround 485.00  Wait 475.00
+  Job  79 -- Response: 485.00  Turnaround 494.00  Wait 485.00
+  Job  80 -- Response: 494.00  Turnaround 503.00  Wait 494.00
+  Job  81 -- Response: 503.00  Turnaround 513.00  Wait 503.00
+  Job  82 -- Response: 513.00  Turnaround 519.00  Wait 513.00
+  Job  83 -- Response: 519.00  Turnaround 523.00  Wait 519.00
+  Job  84 -- Response: 523.00  Turnaround 531.00  Wait 523.00
+  Job  85 -- Response: 531.00  Turnaround 534.00  Wait 531.00
+  Job  86 -- Response: 534.00  Turnaround 543.00  Wait 534.00
+  Job  87 -- Response: 543.00  Turnaround 552.00  Wait 543.00
+  Job  88 -- Response: 552.00  Turnaround 561.00  Wait 552.00
+  Job  89 -- Response: 561.00  Turnaround 567.00  Wait 561.00
+  Job  90 -- Response: 567.00  Turnaround 577.00  Wait 567.00
+  Job  91 -- Response: 577.00  Turnaround 583.00  Wait 577.00
+  Job  92 -- Response: 583.00  Turnaround 588.00  Wait 583.00
+  Job  93 -- Response: 588.00  Turnaround 595.00  Wait 588.00
+  Job  94 -- Response: 595.00  Turnaround 605.00  Wait 595.00
+  Job  95 -- Response: 605.00  Turnaround 615.00  Wait 605.00
+  Job  96 -- Response: 615.00  Turnaround 623.00  Wait 615.00
+  Job  97 -- Response: 623.00  Turnaround 624.00  Wait 623.00
+  Job  98 -- Response: 624.00  Turnaround 631.00  Wait 624.00
+  Job  99 -- Response: 631.00  Turnaround 636.00  Wait 631.00
+
+  Average -- Response: 312.07  Turnaround 318.43  Wait 312.07
+

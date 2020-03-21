@@ -1,0 +1,46 @@
+ARG policy FIFO
+ARG jobs 10
+ARG maxlen 10
+ARG seed 0
+
+Here is the job list, with the run time of each job: 
+  Job 0 ( length = 9 )
+  Job 1 ( length = 8 )
+  Job 2 ( length = 5 )
+  Job 3 ( length = 3 )
+  Job 4 ( length = 6 )
+  Job 5 ( length = 5 )
+  Job 6 ( length = 8 )
+  Job 7 ( length = 4 )
+  Job 8 ( length = 5 )
+  Job 9 ( length = 6 )
+
+
+** Solutions **
+
+Execution trace:
+  [ time   0 ] Run job 0 for 9.00 secs ( DONE at 9.00 )
+  [ time   9 ] Run job 1 for 8.00 secs ( DONE at 17.00 )
+  [ time  17 ] Run job 2 for 5.00 secs ( DONE at 22.00 )
+  [ time  22 ] Run job 3 for 3.00 secs ( DONE at 25.00 )
+  [ time  25 ] Run job 4 for 6.00 secs ( DONE at 31.00 )
+  [ time  31 ] Run job 5 for 5.00 secs ( DONE at 36.00 )
+  [ time  36 ] Run job 6 for 8.00 secs ( DONE at 44.00 )
+  [ time  44 ] Run job 7 for 4.00 secs ( DONE at 48.00 )
+  [ time  48 ] Run job 8 for 5.00 secs ( DONE at 53.00 )
+  [ time  53 ] Run job 9 for 6.00 secs ( DONE at 59.00 )
+
+Final statistics:
+  Job   0 -- Response: 0.00  Turnaround 9.00  Wait 0.00
+  Job   1 -- Response: 9.00  Turnaround 17.00  Wait 9.00
+  Job   2 -- Response: 17.00  Turnaround 22.00  Wait 17.00
+  Job   3 -- Response: 22.00  Turnaround 25.00  Wait 22.00
+  Job   4 -- Response: 25.00  Turnaround 31.00  Wait 25.00
+  Job   5 -- Response: 31.00  Turnaround 36.00  Wait 31.00
+  Job   6 -- Response: 36.00  Turnaround 44.00  Wait 36.00
+  Job   7 -- Response: 44.00  Turnaround 48.00  Wait 44.00
+  Job   8 -- Response: 48.00  Turnaround 53.00  Wait 48.00
+  Job   9 -- Response: 53.00  Turnaround 59.00  Wait 53.00
+
+  Average -- Response: 28.50  Turnaround 34.40  Wait 28.50
+
